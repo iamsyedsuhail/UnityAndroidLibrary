@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ff5222f791963f41893b1476bb46b19
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Profiles/SunsetWater.asset
+  uploadId: 709546

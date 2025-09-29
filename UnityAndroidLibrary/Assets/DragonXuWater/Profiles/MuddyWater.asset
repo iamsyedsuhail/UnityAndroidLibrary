@@ -1,0 +1,529 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6264186978145393230
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 256
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 1
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &-5735542004020524983
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 0
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 0
+    m_Value: 150
+  MaxStepSize:
+    m_OverrideState: 0
+    m_Value: 0.3
+  MaxDistance:
+    m_OverrideState: 0
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 0
+    m_Value: 1
+  reflectionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &-5320272842432118215
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 256
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.1
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &-4774848893744403588
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1679aece8b4634aafbec37a45cbab8, type: 3}
+  m_Name: RoadLine
+  m_EditorClassIdentifier: 
+  active: 1
+  isActivate:
+    m_OverrideState: 0
+    m_Value: 0
+  LineWidth:
+    m_OverrideState: 0
+    m_Value: 1
+  LightStrength:
+    m_OverrideState: 0
+    m_Value: 1
+  LineColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  Start:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  End:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+--- !u!114 &-1636344759107375659
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d98f41b279ae6d4fb006266b88d62bf, type: 3}
+  m_Name: CustomWaterVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.0001
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 256
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.5
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 500
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-1116551818400076345
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d730db13d1fffc44191b7e16ba93902c, type: 3}
+  m_Name: UnderWaterVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  isActive:
+    m_OverrideState: 1
+    m_Value: 1
+  SurfaceHeight:
+    m_OverrideState: 1
+    m_Value: 1
+  WaterColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.25, g: 0.24342991, b: 0.21933962, a: 1}
+  CausticColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.9019608, g: 0.77047837, b: 0.5764706, a: 1}
+  Visibility:
+    m_OverrideState: 1
+    m_Value: 8
+  DistancePow:
+    m_OverrideState: 1
+    m_Value: 0.2
+  CausticScale:
+    m_OverrideState: 1
+    m_Value: 3
+  CausticStrength:
+    m_OverrideState: 1
+    m_Value: 0.5
+  CausticMaxDepth:
+    m_OverrideState: 1
+    m_Value: 0.6
+  FloatSpeed:
+    m_OverrideState: 1
+    m_Value: 1
+  FlowDirection:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  NoiseScale:
+    m_OverrideState: 1
+    m_Value: 3
+  NoiseStrength:
+    m_OverrideState: 1
+    m_Value: 0.08
+  BlurDistance:
+    m_OverrideState: 1
+    m_Value: 40
+  BlurLoop:
+    m_OverrideState: 1
+    m_Value: 4
+--- !u!114 &-644067568860321459
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 256
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.99
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0.001, y: 0.001}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 0.59
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: MuddyWater
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -1116551818400076345}
+--- !u!114 &3574827954964611655
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 150
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.3
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 1
+  reflectionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  StencilReference:
+    m_OverrideState: 1
+    m_Value: 9
+--- !u!114 &3937243979614005164
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 150
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.3
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 1
+  reflectionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &4765686211713625459
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 0
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 0
+    m_Value: 150
+  MaxStepSize:
+    m_OverrideState: 0
+    m_Value: 0.3
+  MaxDistance:
+    m_OverrideState: 0
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 0
+    m_Value: 1
+  reflectionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &6603961895961843804
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 256
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.3
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &7447370695474987396
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.05
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 100
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.1
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &7504690653813934506
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 150
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.3
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 1
+  reflectionLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &7832946750750194341
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CustomWaterReflection
+  m_EditorClassIdentifier: Assembly-CSharp::CustomWaterReflection
+  active: 1
+  DepthThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+  BinarySearchLimit:
+    m_OverrideState: 1
+    m_Value: 100
+  MaxStepSize:
+    m_OverrideState: 1
+    m_Value: 0.5
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  TexelSize:
+    m_OverrideState: 1
+    m_Value: {x: 0.001, y: 0.001}
+  BlurSize:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &8617694669795057824
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e614fb4f0bd836f4c9b1492efe957c3e, type: 3}
+  m_Name: WorldScanning
+  m_EditorClassIdentifier: 
+  active: 0
+  isActivate:
+    m_OverrideState: 0
+    m_Value: 0
+  scanValue:
+    m_OverrideState: 0
+    m_Value: 1
+  scanLineWidth:
+    m_OverrideState: 0
+    m_Value: 1
+  scanLightStrength:
+    m_OverrideState: 0
+    m_Value: 1
+  ScanColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  Radius:
+    m_OverrideState: 0
+    m_Value: 100
+  Center:
+    m_OverrideState: 0
+    m_Value: {x: 11.949356, y: -0.1905753, z: -9.496334}

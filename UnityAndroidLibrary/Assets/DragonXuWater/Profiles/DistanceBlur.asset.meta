@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f14128711d1d8e842973da3e30fb10b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Profiles/DistanceBlur.asset
+  uploadId: 709546

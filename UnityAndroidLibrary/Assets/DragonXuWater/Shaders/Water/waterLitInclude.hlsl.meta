@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f2abb78fbb139384088db5dc2744a811
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Shaders/Water/waterLitInclude.hlsl
+  uploadId: 709546

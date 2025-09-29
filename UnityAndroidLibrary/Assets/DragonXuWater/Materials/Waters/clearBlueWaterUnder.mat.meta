@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e4506152c50201c418b90d07648a47d4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Materials/Waters/clearBlueWaterUnder.mat
+  uploadId: 709546

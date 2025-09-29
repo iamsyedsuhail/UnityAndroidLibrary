@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b004f5690c81f89438e73cdde3a477b8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Prefabs/ClearWaterDark.prefab
+  uploadId: 709546

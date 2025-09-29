@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb85a4c4b1c10024fa683be0be9b48e5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Profiles/MuddyWater.asset
+  uploadId: 709546

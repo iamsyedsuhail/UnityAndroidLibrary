@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9da79bf4d87a723428c48f7779245ebd
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Shaders/Water/DistanceBlur.shader
+  uploadId: 709546

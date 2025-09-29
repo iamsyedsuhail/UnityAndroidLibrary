@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d652a8b2bb7304d438f24b5ce3f67317
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Scripts/GrabColorRF.cs
+  uploadId: 709546

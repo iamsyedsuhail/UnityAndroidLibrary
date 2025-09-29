@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dfdf9391c548bab4ca4c0eb78af6fa14
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Scripts/DistanceBlurRF.cs
+  uploadId: 709546

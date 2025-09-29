@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Izanami_URP_WaterArray
+  m_Shader: {fileID: 4800000, guid: 522c8b93c9afbe7479fe16e06f2bc363, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 0c035a4f0c3de994fadd8d042685c2e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleNormalMap:
+        m_Texture: {fileID: 2800000, guid: 7638e8d35e3c12e48a198c797ee68d16, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyBoxCubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: c3071947e7a2b024c812dadbbe31712d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DIFFUSE_OFF: 0
+    - _DepthFactor: 1
+    - _DirectionRandomization: 0.5
+    - _EnvRotation: 0
+    - _FloatSpeed: 0.2
+    - _IBL_OFF: 0
+    - _Ior: 1.5
+    - _MaxWaveLength: 0.2
+    - _NoiseScale: 1
+    - _NoiseStrength: 1
+    - _Normal: 1
+    - _NormalTiling: 1
+    - _ReflectionStrength: 1
+    - _RippleStrength: 10
+    - _SH_OFF: 0
+    - _SPECULAR_OFF: 0
+    - _SSR_OFF: 0
+    - _SurfaceRoughness: 0.02
+    - _UnderWaterSurface: 0
+    - _VERTEX_ANIM_OFF: 0
+    - _WaveAmplitude: 1
+    - _WaveCount: 10
+    m_Colors:
+    - _DeepColor: {r: 0.124549605, g: 0.31295726, b: 0.554717, a: 1}
+    - _ShallowColor: {r: 0.2627056, g: 0.64866567, b: 0.94716984, a: 1}
+    - _WindDir: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

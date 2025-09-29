@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bde77c98b066a78478cdc0462b01ffce
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Shaders/Water/UnderWater.shader
+  uploadId: 709546

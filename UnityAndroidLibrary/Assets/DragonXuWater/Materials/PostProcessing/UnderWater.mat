@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UnderWater
+  m_Shader: {fileID: 4800000, guid: bde77c98b066a78478cdc0462b01ffce, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3003
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CausticTex:
+        m_Texture: {fileID: 2800000, guid: 0c035a4f0c3de994fadd8d042685c2e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 595940c9aeb2cd143ad0a3e2a67a3b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CausticMaxDepth: 4.23
+    - _CausticScale: 3
+    - _CausticStrength: 0.61
+    - _Density: 10
+    - _FlowDirection: 1
+    - _FlowSpeed: 0.2
+    - _NoiseScale: 3
+    - _NoiseStrength: 0.08
+    - _SurfaceHeight: 1
+    - _Visibility: 20
+    m_Colors:
+    - _Color: {r: 0, g: 0.76128817, b: 1, a: 1}
+    - _FlowDirection: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 39da5fdda98ffc6439c9eaee3160dad5
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Shaders/Sky/CunstomSkyBox.shader
+  uploadId: 709546

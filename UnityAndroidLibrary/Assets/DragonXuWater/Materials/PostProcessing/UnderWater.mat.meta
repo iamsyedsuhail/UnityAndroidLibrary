@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dbce340aa774dd94498bcb456045e1ca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Materials/PostProcessing/UnderWater.mat
+  uploadId: 709546

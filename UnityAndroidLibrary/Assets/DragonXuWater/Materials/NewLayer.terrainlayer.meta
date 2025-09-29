@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba34de5d44f385442a38844da9232f50
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Materials/NewLayer.terrainlayer
+  uploadId: 709546

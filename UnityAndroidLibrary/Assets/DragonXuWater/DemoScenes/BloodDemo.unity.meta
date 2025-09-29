@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c61a6068e630b3942a24f9c1d6858048
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/DemoScenes/BloodDemo.unity
+  uploadId: 709546

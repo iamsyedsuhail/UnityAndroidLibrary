@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7cf5cf373c7587a4cb7fef0f02aa0b46
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Prefabs/WaterManager.prefab
+  uploadId: 709546

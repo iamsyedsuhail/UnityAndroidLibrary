@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: blueWaterUnder
+  m_Shader: {fileID: 4800000, guid: 2bd06c66898fad644ab374c57d35de62, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _UnderWaterSurface
+  - _VERTEX_ANIM_OFF
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _WaveCount
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BubbleTex:
+        m_Texture: {fileID: 2800000, guid: 595940c9aeb2cd143ad0a3e2a67a3b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 0c035a4f0c3de994fadd8d042685c2e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleNormalMap:
+        m_Texture: {fileID: 2800000, guid: 7638e8d35e3c12e48a198c797ee68d16, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyBoxCubeMap:
+        m_Texture: {fileID: 8900000, guid: bcdcd64e2f26adb40af0875237fe5e81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: c3071947e7a2b024c812dadbbe31712d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BubbleDepth: 0.1
+    - _Cutoff: 0.62
+    - _DIFFUSE_OFF: 0
+    - _DepthFactor: 0.79
+    - _DirectionRadomization: 0.5
+    - _DirectionRandomization: 1
+    - _EnvRotation: 0
+    - _FloatSpeed: 2.05
+    - _FoamScale: 10
+    - _IBL_OFF: 0
+    - _Ior: 1
+    - _MaxWaveLength: 3.68
+    - _Metallic: 0
+    - _NoiseScale: 1
+    - _NoiseStrength: 0.2
+    - _Normal: 0.15
+    - _NormalTiling: 7.64
+    - _OcclusionStrength: 1
+    - _ReflectionStrength: 0.48
+    - _RippleStrength: 5.97
+    - _Roughness: 0.5
+    - _SH_OFF: 0
+    - _SPECULAR_OFF: 0
+    - _SSR_OFF: 0
+    - _SurfaceRoughness: 0.002
+    - _UnderWaterSurface: 1
+    - _VC: 0.3
+    - _VERTEX_ANIM_OFF: 1
+    - _VX: 0.1
+    - _WaveAmplitude: 0.2
+    - _WaveCount: 10.28
+    - _WaveLength: 0.69
+    m_Colors:
+    - _BaseColor: {r: 0.4248843, g: 0.5849056, b: 0.5768706, a: 0.7254902}
+    - _BubblesColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0.3921569, g: 0.73333335, b: 0.8745099, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShallowColor: {r: 0.5764706, g: 0.81568635, b: 0.9294118, a: 1}
+    - _WaveColor: {r: 0.5801887, g: 0.5801887, b: 0.5801887, a: 1}
+    - _WindDir: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

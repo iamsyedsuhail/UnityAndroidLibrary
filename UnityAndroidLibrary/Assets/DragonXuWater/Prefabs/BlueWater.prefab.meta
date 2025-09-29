@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1f71d55b299758d4d989f10338811f71
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Prefabs/BlueWater.prefab
+  uploadId: 709546

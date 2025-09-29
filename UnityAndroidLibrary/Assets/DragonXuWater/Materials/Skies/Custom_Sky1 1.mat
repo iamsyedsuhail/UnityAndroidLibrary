@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_Sky1 1
+  m_Shader: {fileID: 4800000, guid: 39da5fdda98ffc6439c9eaee3160dad5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ClusterTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarTex:
+        m_Texture: {fileID: 2800000, guid: 94a60b1ea49a0d749b5300ab2df31777, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - MieWeight: 0.0001
+    - _AtmosphereRadius: 1e+9
+    - _DecayMie: 450000
+    - _DecayRayleigh: 40000
+    - _EarthRadius: 6400000
+    - _MoonOffset: 0.015
+    - _MoonRadius: 0.04
+    - _SunRadius: 0.03
+    - _TimeInDay: 0
+    m_Colors:
+    - MieColor: {r: 1, g: 0.4473585, b: 0.047169805, a: 1}
+    - RayleighColor: {r: 0.25471696, g: 0.6724031, b: 1, a: 1}
+    - _DayBottomCol: {r: 0.3160377, g: 0.022559315, b: 0, a: 1}
+    - _DayMidCol: {r: 0, g: 0, b: 0, a: 1}
+    - _DayTopCol: {r: 0.5471698, g: 0.072955966, b: 0, a: 1}
+    - _EarthCenter: {r: 0, g: -6400000, b: 0, a: 0}
+    - _MoonColor: {r: 1, g: 0.16159368, b: 0, a: 1}
+    - _NightBottomCol: {r: 0, g: 0, b: 0, a: 1}
+    - _NightBottomColor: {r: 0, g: 0, b: 0, a: 0}
+    - _NightMidCol: {r: 0, g: 0, b: 0, a: 1}
+    - _NightMidColor: {r: 0, g: 0, b: 0, a: 0}
+    - _NightTopCol: {r: 0.0432381, g: 0.043137256, b: 0.37254903, a: 1}
+    - _NightTopColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SunColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

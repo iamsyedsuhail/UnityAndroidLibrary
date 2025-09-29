@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 33b3a0fd04971c64cbca797d59089ce8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300100
+  packageName: Interactive Water System and Underwater Effect
+  packageVersion: 1.0
+  assetPath: Assets/DragonXuWater/Prefabs/MuddyWater.prefab
+  uploadId: 709546
