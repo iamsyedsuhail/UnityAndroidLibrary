@@ -11,20 +11,17 @@ public class MyUnityActivity extends UnityPlayerActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        FrameLayout unityRoot = (FrameLayout) mUnityPlayer.getFrameLayout();
+        FrameLayout content = findViewById(android.R.id.content);
 
         glView = new MirrorGLSurfaceView(this);
+        // optional: make it overlay nicely while debugging
+        // glView.setZOrderOnTop(true);
+        // glView.getHolder().setFormat(android.graphics.PixelFormat.TRANSLUCENT);
 
-        FrameLayout container = new FrameLayout(this);
-        container.addView(unityRoot, new FrameLayout.LayoutParams(
+        content.addView(glView, new FrameLayout.LayoutParams(
                 FrameLayout.LayoutParams.MATCH_PARENT,
-                FrameLayout.LayoutParams.MATCH_PARENT));
-
-        container.addView(glView, new FrameLayout.LayoutParams(
-                FrameLayout.LayoutParams.MATCH_PARENT,
-                FrameLayout.LayoutParams.MATCH_PARENT));
-
-        setContentView(container);
+                FrameLayout.LayoutParams.MATCH_PARENT
+        ));
     }
 
     public void onUnityFrameRGBA(byte[] data, int w, int h, int stride) {
