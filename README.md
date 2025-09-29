@@ -31,8 +31,29 @@ androidResources {
 }
 ```
 
+- unityLibrary/build.gradle add api to dependency
+
+```
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])//add this above implementation
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+```
+
 - app/build.gradle add unityLibrary as dependency
 
 ```
     implementation(project(":unityLibrary"))
+```
+
+- app/build.gradle match javaversion with unity's java version
+
+```
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
 ```

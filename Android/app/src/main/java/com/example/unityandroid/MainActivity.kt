@@ -12,7 +12,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.unityandroid.ui.theme.UnityAndroidTheme
 import com.unity3d.player.UnityPlayerActivity
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +29,7 @@ class MainActivity : ComponentActivity() {
                         Text("Hello Android!")
                         Spacer(Modifier.height(16.dp))
                         Button(onClick = {
-                            startActivity(Intent(this@MainActivity, UnityPlayerActivity::class.java).apply {
+                            startActivity(Intent(this@MainActivity, MyUnityActivity::class.java).apply {
                                 putExtra("scene", "SampleScene") // match your Unity scene name
                             })
                         }) {

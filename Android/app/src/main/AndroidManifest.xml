@@ -23,6 +23,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MyUnityActivity"
+            android:launchMode="singleTask"
+            android:clearTaskOnLaunch="true"
+            android:finishOnTaskLaunch="false"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout|locale|fontScale|layoutDirection|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:resizeableActivity="false" />
     </application>
 
 </manifest>
